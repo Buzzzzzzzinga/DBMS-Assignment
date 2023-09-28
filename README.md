@@ -24,7 +24,7 @@ This Python script is a simple Employee Database Management System (DBMS) with a
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/DarkKnight714/DBMS-Assignment.git
+   git clone https://github.com/Buzzzzzzzinga/DBMS-Assignment.git
    ```
 
 2. Navigate to the project directory:

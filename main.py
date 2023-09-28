@@ -88,7 +88,7 @@ def update_employee():
 def id_info():
     global idd
     idd = entry.get()
-    cursor.execute("SELECT COUNT(*) FROM Employee WHERE EmpID = ?", (idd))
+    cursor.execute("SELECT COUNT(*) FROM Employee WHERE EmpID = ?", (idd,))
     res = cursor.fetchone()[0]
 
     if res == 0:
